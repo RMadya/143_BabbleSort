@@ -14,6 +14,14 @@ void input() {
 			cout << "\nArray dapat mempunyai maksimal 20 element.\n";
 		}
 	}
-	
+	cout << endl;
+	cout << "=====================";
+	cout << "Masukkan Element Array";
+	cout << "=====================";
+
+	for (int i = 0; i < n; i++) {
+		cout << "Data ke-" << (i + 1) << ": ";
+		cin >> a[i];
+	}
 
 }
